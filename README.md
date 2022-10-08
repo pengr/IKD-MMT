@@ -1,9 +1,8 @@
-# Align-mmt
+# IKD-mmt
 
 <!-- []() -->
 
 ## Requirements:
-- pip install Stanza 1.2.2 Stanza_batch 0.2.2
 -`pip install --editable .` or `python setup.py build_ext --inplace`
 - conda install pytorch==1.7.0 torchvision==0.8.0 cudatoolkit=10.1 -c pytorch
 - Python 3.7.6
