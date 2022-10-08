@@ -1,0 +1,28 @@
+2021-11-01 22:35:45 | INFO | fairseq_cli.preprocess | Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='../data/multi30k/en-fr/inverseKD', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, image_suffix='image', images_path='../data/multi30k/all-images', joined_dictionary=True, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, pretrained_cnn='resnet50', seed=1, source_lang='en', srcdict=None, target_lang='fr', task='translation', tensorboard_logdir='', test_fnames=None, testpref='../data/multi30k/en-fr/test_2016_flickr.lc.norm.tok.bpe,../data/multi30k/en-fr/test_2017_flickr.lc.norm.tok.bpe,../data/multi30k/en-fr/test_2017_mscoco.lc.norm.tok.bpe', tgtdict=None, threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, train_fnames='../data/multi30k/image_splits/train.txt', trainpref='../data/multi30k/en-fr/train.lc.norm.tok.bpe', user_dir=None, valid_fnames='../data/multi30k/image_splits/val.txt', validpref='../data/multi30k/en-fr/val.lc.norm.tok.bpe', workers=16)
+2021-11-01 22:35:46 | INFO | fairseq_cli.preprocess | [en] Dictionary: 9543 types
+2021-11-01 22:35:47 | INFO | fairseq_cli.preprocess | [en] ../data/multi30k/en-fr/train.lc.norm.tok.bpe.en: 29000 sents, 423353 tokens, 0.0% replaced by <unk>
+2021-11-01 22:35:47 | INFO | fairseq_cli.preprocess | [en] Dictionary: 9543 types
+2021-11-01 22:35:48 | INFO | fairseq_cli.preprocess | [en] ../data/multi30k/en-fr/val.lc.norm.tok.bpe.en: 1014 sents, 15041 tokens, 0.0% replaced by <unk>
+2021-11-01 22:35:48 | INFO | fairseq_cli.preprocess | [en] Dictionary: 9543 types
+2021-11-01 22:35:48 | INFO | fairseq_cli.preprocess | [en] ../data/multi30k/en-fr/test_2016_flickr.lc.norm.tok.bpe.en: 1000 sents, 14591 tokens, 0.0% replaced by <unk>
+2021-11-01 22:35:48 | INFO | fairseq_cli.preprocess | [en] Dictionary: 9543 types
+2021-11-01 22:35:48 | INFO | fairseq_cli.preprocess | [en] ../data/multi30k/en-fr/test_2017_flickr.lc.norm.tok.bpe.en: 1000 sents, 13090 tokens, 0.0% replaced by <unk>
+2021-11-01 22:35:48 | INFO | fairseq_cli.preprocess | [en] Dictionary: 9543 types
+2021-11-01 22:35:49 | INFO | fairseq_cli.preprocess | [en] ../data/multi30k/en-fr/test_2017_mscoco.lc.norm.tok.bpe.en: 461 sents, 5995 tokens, 0.0% replaced by <unk>
+2021-11-01 22:35:49 | INFO | fairseq_cli.preprocess | [fr] Dictionary: 9543 types
+2021-11-01 22:35:50 | INFO | fairseq_cli.preprocess | [fr] ../data/multi30k/en-fr/train.lc.norm.tok.bpe.fr: 29000 sents, 457762 tokens, 0.0% replaced by <unk>
+2021-11-01 22:35:50 | INFO | fairseq_cli.preprocess | [fr] Dictionary: 9543 types
+2021-11-01 22:35:51 | INFO | fairseq_cli.preprocess | [fr] ../data/multi30k/en-fr/val.lc.norm.tok.bpe.fr: 1014 sents, 16142 tokens, 0.0% replaced by <unk>
+2021-11-01 22:35:51 | INFO | fairseq_cli.preprocess | [fr] Dictionary: 9543 types
+2021-11-01 22:35:51 | INFO | fairseq_cli.preprocess | [fr] ../data/multi30k/en-fr/test_2016_flickr.lc.norm.tok.bpe.fr: 1000 sents, 15714 tokens, 0.0% replaced by <unk>
+2021-11-01 22:35:51 | INFO | fairseq_cli.preprocess | [fr] Dictionary: 9543 types
+2021-11-01 22:35:51 | INFO | fairseq_cli.preprocess | [fr] ../data/multi30k/en-fr/test_2017_flickr.lc.norm.tok.bpe.fr: 1000 sents, 14434 tokens, 0.0% replaced by <unk>
+2021-11-01 22:35:51 | INFO | fairseq_cli.preprocess | [fr] Dictionary: 9543 types
+2021-11-01 22:35:52 | INFO | fairseq_cli.preprocess | [fr] ../data/multi30k/en-fr/test_2017_mscoco.lc.norm.tok.bpe.fr: 461 sents, 6669 tokens, 0.0% replaced by <unk>
+preprocesing image info......
+Built pre-trained CNN resnet50 in 1 seconds.
+2021-11-01 22:51:42 | INFO | fairseq_cli.preprocess | [imgae] ../data/multi30k/image_splits/train.txt: parsed 29000 images
+preprocesing image info......
+Built pre-trained CNN resnet50 in 1 seconds.
+2021-11-01 22:52:18 | INFO | fairseq_cli.preprocess | [imgae] ../data/multi30k/image_splits/val.txt: parsed 1014 images
+2021-11-01 22:52:18 | INFO | fairseq_cli.preprocess | Wrote preprocessed data to ../data/multi30k/en-fr/inverseKD
