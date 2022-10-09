@@ -1,6 +1,6 @@
 # IKD-mmt
 
-## Our implementation for paper "Distill the Image to Nowhere: Inversion Knowledge Distillation for Multimodal Machine Translation" (accepted at EMNLP22).
+Our implementation for paper "Distill the Image to Nowhere: Inversion Knowledge Distillation for Multimodal Machine Translation" (accepted at EMNLP22).
 
 <!-- []() -->
 
