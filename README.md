@@ -6,7 +6,7 @@ Our implementation for paper "Distill the Image to Nowhere: Inversion Knowledge 
 
 ## Requirements:
 
--`pip install --editable .` or `python setup.py build_ext --inplace`
+- pip install --editable . or python setup.py build_ext --inplace
 - conda install pytorch==1.7.0 torchvision==0.8.0 cudatoolkit=10.1 -c pytorch
 - Python 3.7.6
 - Java JDK 1.8.0 (or higher)
@@ -14,6 +14,7 @@ Our implementation for paper "Distill the Image to Nowhere: Inversion Knowledge 
 
 ## Data Preparation
 
+To be do ..
 
 ## Resources
 File Name | Description |  Download
