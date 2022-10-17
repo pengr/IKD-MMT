@@ -25,13 +25,13 @@ File Name | Description |  Download
 
 ## Cite
 
-[IKD-mmt paper]():
+[IKD-mmt paper](https://arxiv.org/abs/2210.04468):
 
 ```
 @article{peng2022distill,
   title={Distill the Image to Nowhere: Inversion Knowledge Distillation for Multimodal Machine Translation},
   author={Ru Peng and Yawen Zeng and Junbo Zhao},
-  journal={arXiv preprint arXiv:xxxx},
+  journal={arXiv preprint arXiv:2210.04468},
   year={2022}
 }
 ```
