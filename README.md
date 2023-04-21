@@ -29,9 +29,9 @@ File Name | Description |  Download
 
 ```
 @article{peng2022distill,
-  title={Distill the Image to Nowhere: Inversion Knowledge Distillation for Multimodal Machine Translation},
+  title={Better Sign Language Translation with Monolingual Data},
   author={Ru Peng and Yawen Zeng and Junbo Zhao},
   journal={arXiv preprint arXiv:2210.04468},
-  year={2022}
+  year={2023}
 }
 ```
