@@ -53,7 +53,7 @@ You can let this code works by run the scripts in the directory *expriments*.
    
 3. generate target sentecen
     ```bash
-    gen_res_m_l2.sh
+    bash gen_res_m_l2.sh
     ```
 
 
