@@ -51,7 +51,7 @@ You can let this code works by run the scripts in the directory *expriments*.
     bash train_res_m_l2.sh
     ```
    
-3. generate target sentecen
+3. generate target sentence
     ```bash
     bash gen_res_m_l2.sh
     ```
