@@ -29,7 +29,7 @@ both its original and preprocessed versions (that I used)
 are available at [here](https://github.com/multi30k/dataset/tree/master/data/task2).
 
 You can download your own data set and then refer to 
-experiments/preprae-iwslt14.sh or experiments/prepare-wmt14en2de.sh to pre-process the data set.
+*experiments/prepare-iwslt14.sh* or *experiments/prepare-wmt14en2de.sh* to pre-process the data set.
 
 File Name | Description |  Download
 ---|---|---
