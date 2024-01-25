@@ -60,13 +60,11 @@ You can let this code works by run the scripts in the directory *expriments*.
 ## Citation
 If you use the code in your research, please cite:
 ```bibtex
-@inproceedings{peng-etal-2022-distill,
-    title = "Distill The Image to Nowhere: Inversion Knowledge Distillation for Multimodal Machine Translation",
-    author = "Peng, Ru  and
-      Zeng, Yawen  and
-      Zhao, Jake",
-    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
-    year = "2022",
-    pages = "2379--2390",
+@inproceedings{peng2022distill,
+    title={Distill The Image to Nowhere: Inversion Knowledge Distillation for Multimodal Machine Translation},
+    author={Peng, Ru and Zeng, Yawen and Zhao, Jake},
+    booktitle={Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing},
+    pages={2379--2390},
+    year={2022}
 }
 ```
